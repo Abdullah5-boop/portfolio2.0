@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <section>
-    <h1>This is my potfolio </h1>
+    <section class="main-container ">
+        <section class="grid grid-cols-4 gap-1 mx-15 pt-10">
+            <div class="box-1 ml-10 border">
+                <div class="img-container-1">
+                    <img src="./photo-1.jpeg" alt="">
+                </div>
+                <div class="content-1 ml-7">
+                    <h1 class="text-6xl mt-12 h1class">Welcome <br>to my profile
+                    </h1>
+
+                </div>
+            </div>
+            <div class="box-2 border">
+                <div class="content-1 mx-5">
+                    <h1 class="text-5xl font-bold pb-7 text-[#7743DB]">About Me</h1>
+                    <p>
+
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae, velit ipsam, natus
+                        pariatur tempora, tenetur earum iusto dolorem possimus hic? Obcaecati eum perspiciatis alias
+                        ducimus nostrum nam perferendis provident.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae, velit ipsam,
+                    </p>
+                </div>
+                <div class="im2-container">
+                    <img src="./photo-2.jpeg" alt="">
+                </div>
+            </div>
+            <div class="box-3 border px-5 ">
+
+
+                <div class="img3-container">
+                    <img src="./photo-2.jpeg" alt="">
+                </div>
+                <div class="content-3">
+                    <h1 class="text-5xl font-bold pb-7 text-[#7743DB] mt-5">My journey</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab commodi consectetur aspernatur
+                        iusto hic, rerum in! Qui sed, ullam perferendis vel cumque inventore fugit similique reiciendis
+                        placeat, quas eius.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab commodi consectetur aspernatur
+                        iusto hic, rerum in! Qui sed, ullam perferendis vel cumque inventore fugit similique reiciendis
+                        placeat, quas eius.
+
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="box-4 border px-5 ">
+                <h1 class="text-center text-5xl  h1class mb-20">Contact us</h1>
+                <div>
+                    <form class="w-full max-w-sm">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <input
+                                class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                                type="text" placeholder="Jane Doe" aria-label="Full name">
+                         
+                            <button
+                                class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
+                                type="button">
+                                Clear
+                            </button>
+                        </div>
+                        <div class="mt-5 flex items-center border-b border-teal-500 py-2">
+                            <input
+                                class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                                type="text" placeholder="Text" aria-label="Full name">
+                       
+                            <button
+                                class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
+                                type="button">
+                                Clear
+                            </button>
+                        </div>
+                        <div class="mt-5 flex items-center border-b border-teal-500 py-2">
+                            <input
+                                class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                                type="text" placeholder="@gmail.com" aria-label="Full name">
+                       
+                            <button
+                                class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
+                                type="button">
+                                Clear
+                            </button>
+                        </div>
+                        <button class="mt-5 flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+                            submit
+                          </button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </section>
 </body>
+
 </html>
