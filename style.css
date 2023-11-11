@@ -3,8 +3,20 @@
 @tailwind components;
 
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
 :root{
     --main--height:90vh;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 .main-container{
     width: 100vw;
