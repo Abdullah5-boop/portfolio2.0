@@ -21,6 +21,9 @@ font-family: 'Roboto', sans-serif;
 .main-container{
     width: 100vw;
     height: var(--main--height);
+    margin: auto;
+    /* border: 1px solid; */
+   
 }
 .box-1 {
     height:var(--main--height);
@@ -30,7 +33,7 @@ font-family: 'Roboto', sans-serif;
     height:var(--main--height);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content:space-evenly */
 
 }
 .box-3 {
@@ -41,6 +44,11 @@ font-family: 'Roboto', sans-serif;
 .h1class{
     font-weight: bold;
     color:#7743DB
+}
+.box-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .box-2 p,.box-3 p{
     font-size: 22px;
@@ -65,10 +73,11 @@ font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 40%;
     object-fit: cover;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 
 }
 .im2-container img{
+    margin-top: 20px;
     width: 100%;
     height: 100%;
     object-fit: cover;
