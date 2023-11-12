@@ -9,7 +9,7 @@
 
 :root{
     --main--height:90vh;
-}
+  }
 h1{
     font-family: 'Oswald', sans-serif;
 }
@@ -83,8 +83,6 @@ font-family: 'Roboto', sans-serif;
     object-fit: cover;
 
 }
-
-
 
 
 .img3-container{
